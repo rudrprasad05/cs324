@@ -1,8 +1,8 @@
 package com.rudrprasad;
 
-public class Flute extends Instrument{
+public class Flute implements Instrument{
     @Override
-    void play(Note n) {
-        System.out.println("flute is playing");
+    public void play(Note n) {
+        System.out.println("flute is playing note " + n);
     }
 }

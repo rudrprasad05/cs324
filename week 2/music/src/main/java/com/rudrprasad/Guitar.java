@@ -1,8 +1,8 @@
 package com.rudrprasad;
 
-public class Guitar extends Instrument{
+public class Guitar implements Instrument{
     @Override
-    void play(Note n) {
-        System.out.println("guitar is playing");
+    public void play(Note n) {
+        System.out.println("guitar is playing note " + n);
     }
 }

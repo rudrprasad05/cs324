@@ -1,4 +1,5 @@
 package com.rudrprasad;
 
-public class Note {
+public enum Note {
+    MIDDLE_C, C_SHARP
 }
