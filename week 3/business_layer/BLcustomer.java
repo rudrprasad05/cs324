@@ -48,6 +48,10 @@ public class BLcustomer{
 	public void delete() throws Exception{
 		cusData.delete(this);
 	}
+	public void update() throws Exception{
+		cusData.update(this);
+	}
+
 
 
 }
